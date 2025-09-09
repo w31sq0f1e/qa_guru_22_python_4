@@ -58,18 +58,7 @@ def test_random_list():
 
     # TODO создайте список
 
-    l = [
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-        random.randint(0, 100),
-    ]
+    l = [random.randint(1,100) for i in range(10)]
 
     l.sort()
 
